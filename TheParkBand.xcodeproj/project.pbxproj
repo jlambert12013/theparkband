@@ -6,23 +6,46 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B6E351F42D534FA700773756 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B6E351F32D534FA700773756 /* FirebaseAuth */; };
+		B6E351F72D53507900773756 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = B6E351F62D53507900773756 /* GoogleSignIn */; };
+		B6E352012D53548C00773756 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E351FC2D53548C00773756 /* ContentView.swift */; };
+		B6E352022D53548C00773756 /* TheParkBandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E351FF2D53548C00773756 /* TheParkBandApp.swift */; };
+		B6E352032D53548C00773756 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E351F92D53548C00773756 /* Preview Assets.xcassets */; };
+		B6E352042D53548C00773756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E351FB2D53548C00773756 /* Assets.xcassets */; };
+		B6E352052D53548C00773756 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6E351FD2D53548C00773756 /* GoogleService-Info.plist */; };
+		B6E352142D53553100773756 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E352132D53553100773756 /* AuthenticationViewModel.swift */; };
+		B6E3521A2D53577200773756 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E352192D53577200773756 /* UIApplicationExtension.swift */; };
+		B6E3521C2D53582000773756 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E3521B2D53582000773756 /* User.swift */; };
+		B6E3521E2D53587B00773756 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B6E3521D2D53587B00773756 /* FirebaseFirestore */; };
+		B6E352232D535C6E00773756 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E352222D535C6E00773756 /* SignInView.swift */; };
+		B6E352252D535D1900773756 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E352242D535D1900773756 /* AuthenticationView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B6E351DC2D533C7F00773756 /* TheParkBand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheParkBand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E351F92D53548C00773756 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6E351FB2D53548C00773756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6E351FC2D53548C00773756 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6E351FD2D53548C00773756 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B6E351FE2D53548C00773756 /* TheParkBand.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheParkBand.entitlements; sourceTree = "<group>"; };
+		B6E351FF2D53548C00773756 /* TheParkBandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheParkBandApp.swift; sourceTree = "<group>"; };
+		B6E352132D53553100773756 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		B6E352192D53577200773756 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		B6E3521B2D53582000773756 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B6E352212D535A4400773756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B6E352222D535C6E00773756 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		B6E352242D535D1900773756 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B6E351DE2D533C7F00773756 /* TheParkBand */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TheParkBand;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B6E351D92D533C7F00773756 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6E351F42D534FA700773756 /* FirebaseAuth in Frameworks */,
+				B6E351F72D53507900773756 /* GoogleSignIn in Frameworks */,
+				B6E3521E2D53587B00773756 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,7 +55,7 @@
 		B6E351D32D533C7F00773756 = {
 			isa = PBXGroup;
 			children = (
-				B6E351DE2D533C7F00773756 /* TheParkBand */,
+				B6E352002D53548C00773756 /* TheParkBand */,
 				B6E351DD2D533C7F00773756 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +66,81 @@
 				B6E351DC2D533C7F00773756 /* TheParkBand.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B6E351FA2D53548C00773756 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B6E351F92D53548C00773756 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6E352002D53548C00773756 /* TheParkBand */ = {
+			isa = PBXGroup;
+			children = (
+				B6E352212D535A4400773756 /* Info.plist */,
+				B6E351FE2D53548C00773756 /* TheParkBand.entitlements */,
+				B6E351FD2D53548C00773756 /* GoogleService-Info.plist */,
+				B6E351FC2D53548C00773756 /* ContentView.swift */,
+				B6E351FF2D53548C00773756 /* TheParkBandApp.swift */,
+				B6E351FB2D53548C00773756 /* Assets.xcassets */,
+				B6E352102D5354EF00773756 /* Core */,
+				B6E352182D5356CA00773756 /* Extensions */,
+				B6E351FA2D53548C00773756 /* Preview Content */,
+			);
+			path = TheParkBand;
+			sourceTree = "<group>";
+		};
+		B6E3520C2D5354EF00773756 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6E3521B2D53582000773756 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6E3520D2D5354EF00773756 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6E352222D535C6E00773756 /* SignInView.swift */,
+				B6E352242D535D1900773756 /* AuthenticationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B6E3520E2D5354EF00773756 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B6E352132D53553100773756 /* AuthenticationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B6E3520F2D5354EF00773756 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				B6E3520C2D5354EF00773756 /* Model */,
+				B6E3520D2D5354EF00773756 /* View */,
+				B6E3520E2D5354EF00773756 /* ViewModel */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		B6E352102D5354EF00773756 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B6E3520F2D5354EF00773756 /* Authentication */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B6E352182D5356CA00773756 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B6E352192D53577200773756 /* UIApplicationExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,11 +158,11 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				B6E351DE2D533C7F00773756 /* TheParkBand */,
-			);
 			name = TheParkBand;
 			packageProductDependencies = (
+				B6E351F32D534FA700773756 /* FirebaseAuth */,
+				B6E351F62D53507900773756 /* GoogleSignIn */,
+				B6E3521D2D53587B00773756 /* FirebaseFirestore */,
 			);
 			productName = TheParkBand;
 			productReference = B6E351DC2D533C7F00773756 /* TheParkBand.app */;
@@ -94,6 +192,10 @@
 			);
 			mainGroup = B6E351D32D533C7F00773756;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B6E351F22D534FA700773756 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				B6E351F52D53507900773756 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B6E351DD2D533C7F00773756 /* Products */;
 			projectDirPath = "";
@@ -109,6 +211,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6E352032D53548C00773756 /* Preview Assets.xcassets in Resources */,
+				B6E352042D53548C00773756 /* Assets.xcassets in Resources */,
+				B6E352052D53548C00773756 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +224,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6E352232D535C6E00773756 /* SignInView.swift in Sources */,
+				B6E352142D53553100773756 /* AuthenticationViewModel.swift in Sources */,
+				B6E352012D53548C00773756 /* ContentView.swift in Sources */,
+				B6E352252D535D1900773756 /* AuthenticationView.swift in Sources */,
+				B6E3521A2D53577200773756 /* UIApplicationExtension.swift in Sources */,
+				B6E3521C2D53582000773756 /* User.swift in Sources */,
+				B6E352022D53548C00773756 /* TheParkBandApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +364,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheParkBand/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Park Band";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -260,8 +374,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -270,10 +384,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mastinmedia.TheParkBand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = 1;
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
@@ -291,6 +406,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheParkBand/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Park Band";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -299,8 +416,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -309,10 +426,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mastinmedia.TheParkBand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = 1;
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
@@ -339,6 +457,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B6E351F22D534FA700773756 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.8.1;
+			};
+		};
+		B6E351F52D53507900773756 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B6E351F32D534FA700773756 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6E351F22D534FA700773756 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		B6E351F62D53507900773756 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6E351F52D53507900773756 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		B6E3521D2D53587B00773756 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6E351F22D534FA700773756 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B6E351D42D533C7F00773756 /* Project object */;
 }

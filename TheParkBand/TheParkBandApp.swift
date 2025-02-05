@@ -5,13 +5,34 @@
 //  Created by Jim Lambert on 2/5/25.
 //
 
+import FirebaseCore
 import SwiftUI
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+  func application(
+    _ application: UIApplication,
+    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
+  ) -> Bool {
+    FirebaseApp.configure()
+    return true
+  }
+}
 
 @main
 struct TheParkBandApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+  @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+  @StateObject var authenticationViewModel = AuthenticationViewModel()
+  
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
+        .environmentObject(authenticationViewModel)
+        .onAppear {
+          authenticationViewModel.restoreSession()
+          
+          
         }
     }
+  }
 }
+
