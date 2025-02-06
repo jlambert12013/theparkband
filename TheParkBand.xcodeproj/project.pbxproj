@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B6657B302D55667000485054 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6657B2F2D55667000485054 /* GoogleService-Info.plist */; };
+		B6657B332D5569A100485054 /* ComponentsKit in Frameworks */ = {isa = PBXBuildFile; productRef = B6657B322D5569A100485054 /* ComponentsKit */; };
+		B6657B362D5569AF00485054 /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = B6657B352D5569AF00485054 /* SwiftfulRouting */; };
 		B6E351F42D534FA700773756 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B6E351F32D534FA700773756 /* FirebaseAuth */; };
 		B6E351F72D53507900773756 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = B6E351F62D53507900773756 /* GoogleSignIn */; };
 		B6E352012D53548C00773756 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E351FC2D53548C00773756 /* MainView.swift */; };
@@ -47,6 +49,8 @@
 				B6E351F42D534FA700773756 /* FirebaseAuth in Frameworks */,
 				B6E351F72D53507900773756 /* GoogleSignIn in Frameworks */,
 				B6E3521E2D53587B00773756 /* FirebaseFirestore in Frameworks */,
+				B6657B332D5569A100485054 /* ComponentsKit in Frameworks */,
+				B6657B362D5569AF00485054 /* SwiftfulRouting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +168,8 @@
 				B6E351F32D534FA700773756 /* FirebaseAuth */,
 				B6E351F62D53507900773756 /* GoogleSignIn */,
 				B6E3521D2D53587B00773756 /* FirebaseFirestore */,
+				B6657B322D5569A100485054 /* ComponentsKit */,
+				B6657B352D5569AF00485054 /* SwiftfulRouting */,
 			);
 			productName = TheParkBand;
 			productReference = B6E351DC2D533C7F00773756 /* TheParkBand.app */;
@@ -196,6 +202,8 @@
 			packageReferences = (
 				B6E351F22D534FA700773756 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				B6E351F52D53507900773756 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				B6657B312D5569A100485054 /* XCRemoteSwiftPackageReference "ComponentsKit" */,
+				B6657B342D5569AF00485054 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B6E351DD2D533C7F00773756 /* Products */;
@@ -461,6 +469,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		B6657B312D5569A100485054 /* XCRemoteSwiftPackageReference "ComponentsKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/componentskit/ComponentsKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+		B6657B342D5569AF00485054 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulRouting.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.3.6;
+			};
+		};
 		B6E351F22D534FA700773756 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -480,6 +504,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		B6657B322D5569A100485054 /* ComponentsKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6657B312D5569A100485054 /* XCRemoteSwiftPackageReference "ComponentsKit" */;
+			productName = ComponentsKit;
+		};
+		B6657B352D5569AF00485054 /* SwiftfulRouting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6657B342D5569AF00485054 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */;
+			productName = SwiftfulRouting;
+		};
 		B6E351F32D534FA700773756 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B6E351F22D534FA700773756 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
