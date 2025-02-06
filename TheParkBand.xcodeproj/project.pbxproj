@@ -13,7 +13,6 @@
 		B6E352022D53548C00773756 /* TheParkBandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E351FF2D53548C00773756 /* TheParkBandApp.swift */; };
 		B6E352032D53548C00773756 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E351F92D53548C00773756 /* Preview Assets.xcassets */; };
 		B6E352042D53548C00773756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E351FB2D53548C00773756 /* Assets.xcassets */; };
-		B6E352052D53548C00773756 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6E351FD2D53548C00773756 /* GoogleService-Info.plist */; };
 		B6E352142D53553100773756 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E352132D53553100773756 /* AuthenticationViewModel.swift */; };
 		B6E3521A2D53577200773756 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E352192D53577200773756 /* UIApplicationExtension.swift */; };
 		B6E3521C2D53582000773756 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E3521B2D53582000773756 /* User.swift */; };
@@ -28,13 +27,11 @@
 		B6E351F92D53548C00773756 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B6E351FB2D53548C00773756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6E351FC2D53548C00773756 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B6E351FD2D53548C00773756 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B6E351FE2D53548C00773756 /* TheParkBand.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheParkBand.entitlements; sourceTree = "<group>"; };
 		B6E351FF2D53548C00773756 /* TheParkBandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheParkBandApp.swift; sourceTree = "<group>"; };
 		B6E352132D53553100773756 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		B6E352192D53577200773756 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
 		B6E3521B2D53582000773756 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		B6E352212D535A4400773756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B6E352222D535C6E00773756 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		B6E352242D535D1900773756 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		B6E352262D53618D00773756 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
@@ -81,9 +78,7 @@
 		B6E352002D53548C00773756 /* TheParkBand */ = {
 			isa = PBXGroup;
 			children = (
-				B6E352212D535A4400773756 /* Info.plist */,
 				B6E351FE2D53548C00773756 /* TheParkBand.entitlements */,
-				B6E351FD2D53548C00773756 /* GoogleService-Info.plist */,
 				B6E351FC2D53548C00773756 /* ContentView.swift */,
 				B6E351FF2D53548C00773756 /* TheParkBandApp.swift */,
 				B6E351FB2D53548C00773756 /* Assets.xcassets */,
@@ -216,7 +211,6 @@
 			files = (
 				B6E352032D53548C00773756 /* Preview Assets.xcassets in Resources */,
 				B6E352042D53548C00773756 /* Assets.xcassets in Resources */,
-				B6E352052D53548C00773756 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
