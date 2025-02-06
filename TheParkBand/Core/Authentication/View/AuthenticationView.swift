@@ -13,7 +13,7 @@ struct AuthenticationView: View {
   var body: some View {
     switch authenticationViewModel.state {
       case .signedIn:
-        ContentView().environmentObject(authenticationViewModel)
+        UserView().environmentObject(authenticationViewModel)
       case .signedOut:
         SignInView()
     }

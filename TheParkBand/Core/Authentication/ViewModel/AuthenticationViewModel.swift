@@ -20,18 +20,23 @@ final class AuthenticationViewModel: ObservableObject {
     handle = Auth.auth().addStateDidChangeListener { _, user in
       if let user {
         self.user = User(authenticatedUser: user)
+        print(user)
         self.state = .signedIn
       } else {
         self.state = .signedOut
       }
+      print(self.state)
     }
   }
   
   // MARK: SIGN INTO FIREBASE
   func signIn(scopes: [String]) async throws {
+    print("SIGN IN START")
     // CREATE CONFIGURATION OBJECT
     guard let clientID = FirebaseApp.app()?.options.clientID else { return }
+    print(clientID)
     let config = GIDConfiguration(clientID: clientID)
+    print(config)
     GIDSignIn.sharedInstance.configuration = config
     
     // START SIGN IN FLOW

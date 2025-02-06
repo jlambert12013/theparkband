@@ -20,6 +20,7 @@
 		B6E3521E2D53587B00773756 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B6E3521D2D53587B00773756 /* FirebaseFirestore */; };
 		B6E352232D535C6E00773756 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E352222D535C6E00773756 /* SignInView.swift */; };
 		B6E352252D535D1900773756 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E352242D535D1900773756 /* AuthenticationView.swift */; };
+		B6E352272D53618D00773756 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E352262D53618D00773756 /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		B6E352212D535A4400773756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B6E352222D535C6E00773756 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		B6E352242D535D1900773756 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		B6E352262D53618D00773756 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				B6E352222D535C6E00773756 /* SignInView.swift */,
 				B6E352242D535D1900773756 /* AuthenticationView.swift */,
+				B6E352262D53618D00773756 /* UserView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				B6E352232D535C6E00773756 /* SignInView.swift in Sources */,
 				B6E352142D53553100773756 /* AuthenticationViewModel.swift in Sources */,
 				B6E352012D53548C00773756 /* ContentView.swift in Sources */,
+				B6E352272D53618D00773756 /* UserView.swift in Sources */,
 				B6E352252D535D1900773756 /* AuthenticationView.swift in Sources */,
 				B6E3521A2D53577200773756 /* UIApplicationExtension.swift in Sources */,
 				B6E3521C2D53582000773756 /* User.swift in Sources */,

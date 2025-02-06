@@ -10,7 +10,6 @@ import SwiftUI
 
 struct SignInView: View {
   @EnvironmentObject var authenticationViewModel: AuthenticationViewModel
-  
   var body: some View {
     VStack {
       Image("AppLogo")
@@ -20,7 +19,7 @@ struct SignInView: View {
       Button {
         Task {
           try await authenticationViewModel.signIn(scopes: [
-            "https://www.googleapis.com/auth/calendar.events.readonly"
+//            "https://www.googleapis.com/auth/calendar.events.readonly"
           ])
         }
       } label: {
@@ -39,7 +38,6 @@ struct SignInView: View {
     }
   }
 }
-
 
 #Preview {
   SignInView()

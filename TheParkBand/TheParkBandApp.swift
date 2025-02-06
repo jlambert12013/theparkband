@@ -25,12 +25,10 @@ struct TheParkBandApp: App {
   
   var body: some Scene {
     WindowGroup {
-      ContentView()
+      AuthenticationView()
         .environmentObject(authenticationViewModel)
         .onAppear {
           authenticationViewModel.restoreSession()
-          
-          
         }
     }
   }
