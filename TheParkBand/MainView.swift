@@ -7,10 +7,11 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainView: View {
   @EnvironmentObject var authenticationViewModel: AuthenticationViewModel
   var body: some View {
     VStack {
+      Text("MAIN VIEW")
       Button("Sign Out") {
         Task {
           try authenticationViewModel.signOut()
@@ -21,5 +22,5 @@ struct ContentView: View {
 }
 
 #Preview {
-  ContentView()
+  MainView()
 }

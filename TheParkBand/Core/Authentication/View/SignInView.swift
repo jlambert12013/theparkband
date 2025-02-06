@@ -18,9 +18,7 @@ struct SignInView: View {
         .padding()
       Button {
         Task {
-          try await authenticationViewModel.signIn(scopes: [
-            //            "https://www.googleapis.com/auth/calendar.events.readonly"
-          ])
+          try await authenticationViewModel.signIn(scopes: ["https://www.googleapis.com/auth/calendar.events.readonly"])
         }
       } label: {
         Image("GoogleIcon")
