@@ -111,7 +111,7 @@ struct SelectedTabCircleView: View {
   var body: some View {
     ZStack {
       Circle()
-        .fill(.primary)
+        .fill(Color.primaryBubble)
         .frame(width: buttonDimen , height: buttonDimen)
       TabBarButton(imageName: "\(currentTab.rawValue)")
         .foregroundColor(Color.primaryText)
