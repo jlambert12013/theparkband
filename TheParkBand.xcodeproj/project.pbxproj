@@ -10,10 +10,10 @@
 		B6657B302D55667000485054 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6657B2F2D55667000485054 /* GoogleService-Info.plist */; };
 		B6657B332D5569A100485054 /* ComponentsKit in Frameworks */ = {isa = PBXBuildFile; productRef = B6657B322D5569A100485054 /* ComponentsKit */; };
 		B6657B362D5569AF00485054 /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = B6657B352D5569AF00485054 /* SwiftfulRouting */; };
-		B6657B392D556B9800485054 /* FloatingTabBar in Frameworks */ = {isa = PBXBuildFile; productRef = B6657B382D556B9800485054 /* FloatingTabBar */; };
+		B66F230F2D56032B007D69FB /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F230D2D56032B007D69FB /* CustomTabBar.swift */; };
 		B6E351F42D534FA700773756 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B6E351F32D534FA700773756 /* FirebaseAuth */; };
 		B6E351F72D53507900773756 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = B6E351F62D53507900773756 /* GoogleSignIn */; };
-		B6E352012D53548C00773756 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E351FC2D53548C00773756 /* MainView.swift */; };
+		B6E352012D53548C00773756 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E351FC2D53548C00773756 /* HomeView.swift */; };
 		B6E352022D53548C00773756 /* TheParkBandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E351FF2D53548C00773756 /* TheParkBandApp.swift */; };
 		B6E352032D53548C00773756 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E351F92D53548C00773756 /* Preview Assets.xcassets */; };
 		B6E352042D53548C00773756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E351FB2D53548C00773756 /* Assets.xcassets */; };
@@ -28,10 +28,11 @@
 
 /* Begin PBXFileReference section */
 		B6657B2F2D55667000485054 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B66F230D2D56032B007D69FB /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		B6E351DC2D533C7F00773756 /* TheParkBand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheParkBand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E351F92D53548C00773756 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B6E351FB2D53548C00773756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B6E351FC2D53548C00773756 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B6E351FC2D53548C00773756 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B6E351FE2D53548C00773756 /* TheParkBand.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheParkBand.entitlements; sourceTree = "<group>"; };
 		B6E351FF2D53548C00773756 /* TheParkBandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheParkBandApp.swift; sourceTree = "<group>"; };
 		B6E352132D53553100773756 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 				B6E351F72D53507900773756 /* GoogleSignIn in Frameworks */,
 				B6E3521E2D53587B00773756 /* FirebaseFirestore in Frameworks */,
 				B6657B332D5569A100485054 /* ComponentsKit in Frameworks */,
-				B6657B392D556B9800485054 /* FloatingTabBar in Frameworks */,
 				B6657B362D5569AF00485054 /* SwiftfulRouting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,6 +59,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B66F23062D560286007D69FB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B66F230E2D56032B007D69FB /* CustomTabBar */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B66F230E2D56032B007D69FB /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B66F230D2D56032B007D69FB /* CustomTabBar.swift */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
 		B6E351D32D533C7F00773756 = {
 			isa = PBXGroup;
 			children = (
@@ -86,11 +102,12 @@
 		B6E352002D53548C00773756 /* TheParkBand */ = {
 			isa = PBXGroup;
 			children = (
-				B6657B2F2D55667000485054 /* GoogleService-Info.plist */,
 				B6E351FE2D53548C00773756 /* TheParkBand.entitlements */,
-				B6E351FC2D53548C00773756 /* MainView.swift */,
+				B6657B2F2D55667000485054 /* GoogleService-Info.plist */,
+				B6E351FC2D53548C00773756 /* HomeView.swift */,
 				B6E351FF2D53548C00773756 /* TheParkBandApp.swift */,
 				B6E351FB2D53548C00773756 /* Assets.xcassets */,
+				B66F23062D560286007D69FB /* Components */,
 				B6E352102D5354EF00773756 /* Core */,
 				B6E352182D5356CA00773756 /* Extensions */,
 				B6E351FA2D53548C00773756 /* Preview Content */,
@@ -172,7 +189,6 @@
 				B6E3521D2D53587B00773756 /* FirebaseFirestore */,
 				B6657B322D5569A100485054 /* ComponentsKit */,
 				B6657B352D5569AF00485054 /* SwiftfulRouting */,
-				B6657B382D556B9800485054 /* FloatingTabBar */,
 			);
 			productName = TheParkBand;
 			productReference = B6E351DC2D533C7F00773756 /* TheParkBand.app */;
@@ -207,7 +223,6 @@
 				B6E351F52D53507900773756 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				B6657B312D5569A100485054 /* XCRemoteSwiftPackageReference "ComponentsKit" */,
 				B6657B342D5569AF00485054 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */,
-				B6657B372D556B9800485054 /* XCRemoteSwiftPackageReference "FloatingTabBar" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B6E351DD2D533C7F00773756 /* Products */;
@@ -239,8 +254,9 @@
 			files = (
 				B6E352232D535C6E00773756 /* SignInView.swift in Sources */,
 				B6E352142D53553100773756 /* AuthenticationViewModel.swift in Sources */,
-				B6E352012D53548C00773756 /* MainView.swift in Sources */,
+				B6E352012D53548C00773756 /* HomeView.swift in Sources */,
 				B6E352272D53618D00773756 /* UserView.swift in Sources */,
+				B66F230F2D56032B007D69FB /* CustomTabBar.swift in Sources */,
 				B6E352252D535D1900773756 /* AuthenticationView.swift in Sources */,
 				B6E3521A2D53577200773756 /* UIApplicationExtension.swift in Sources */,
 				B6E3521C2D53582000773756 /* User.swift in Sources */,
@@ -369,7 +385,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				CODE_SIGN_ENTITLEMENTS = TheParkBand/TheParkBand.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -411,7 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				CODE_SIGN_ENTITLEMENTS = TheParkBand/TheParkBand.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -489,14 +505,6 @@
 				minimumVersion = 5.3.6;
 			};
 		};
-		B6657B372D556B9800485054 /* XCRemoteSwiftPackageReference "FloatingTabBar" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/claudiaeng/FloatingTabBar.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 		B6E351F22D534FA700773756 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -525,11 +533,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = B6657B342D5569AF00485054 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */;
 			productName = SwiftfulRouting;
-		};
-		B6657B382D556B9800485054 /* FloatingTabBar */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B6657B372D556B9800485054 /* XCRemoteSwiftPackageReference "FloatingTabBar" */;
-			productName = FloatingTabBar;
 		};
 		B6E351F32D534FA700773756 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;

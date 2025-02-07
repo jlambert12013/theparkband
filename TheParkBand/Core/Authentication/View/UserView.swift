@@ -15,8 +15,8 @@ struct UserView: View {
   
   var body: some View {
     ZStack {
-      if let user = authenticationViewModel.user {
-        MainView()
+      if let _ = authenticationViewModel.user {
+        HomeView()
       } else {
         ProgressView()
       }
