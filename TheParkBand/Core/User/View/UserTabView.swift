@@ -10,7 +10,7 @@ import LoremSwiftum
 
 struct UserTabView: View {
   @EnvironmentObject var authenticationViewModel: AuthenticationViewModel
-  var user: User
+  let user: User
   
   var body: some View {
     TabView {

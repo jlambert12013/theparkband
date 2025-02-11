@@ -10,15 +10,18 @@
 		B618C3CC2D5B2B340096A68B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B618C3CA2D5B2B340096A68B /* User.swift */; };
 		B618C3D12D5B2B3F0096A68B /* UserTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B618C3CE2D5B2B3F0096A68B /* UserTabView.swift */; };
 		B618C3D22D5B2B3F0096A68B /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B618C3CF2D5B2B3F0096A68B /* UserView.swift */; };
+		B64006DE2D5B46AF0092A703 /* LoremSwiftum in Frameworks */ = {isa = PBXBuildFile; productRef = B64006DD2D5B46AF0092A703 /* LoremSwiftum */; };
 		B6657B302D55667000485054 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6657B2F2D55667000485054 /* GoogleService-Info.plist */; };
-		B6657B332D5569A100485054 /* ComponentsKit in Frameworks */ = {isa = PBXBuildFile; productRef = B6657B322D5569A100485054 /* ComponentsKit */; };
-		B6657B362D5569AF00485054 /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = B6657B352D5569AF00485054 /* SwiftfulRouting */; };
 		B68BC2592D5B2385005ED198 /* ItineraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68BC2582D5B2385005ED198 /* ItineraryView.swift */; };
 		B68BC25B2D5B23A2005ED198 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68BC25A2D5B23A2005ED198 /* ScheduleView.swift */; };
 		B68BC25D2D5B23CC005ED198 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68BC25C2D5B23CC005ED198 /* LocationView.swift */; };
 		B68BC2612D5B23EE005ED198 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68BC2602D5B23EE005ED198 /* MessageView.swift */; };
 		B68BC2632D5B2410005ED198 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68BC2622D5B2410005ED198 /* SettingsView.swift */; };
-		B6AD8E852D5B27D2006E36CD /* LoremSwiftum in Frameworks */ = {isa = PBXBuildFile; productRef = B6AD8E842D5B27D2006E36CD /* LoremSwiftum */; };
+		B6C28BAC2D5B3D8C00241CDB /* ItineraryUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C28BAB2D5B3D8C00241CDB /* ItineraryUploadView.swift */; };
+		B6C28BAE2D5B45E900241CDB /* WeekComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C28BAD2D5B45E900241CDB /* WeekComponentView.swift */; };
+		B6C28BB02D5B45F100241CDB /* HorizonalTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C28BAF2D5B45F100241CDB /* HorizonalTabView.swift */; };
+		B6C28BB22D5B461800241CDB /* WeekComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C28BB12D5B461800241CDB /* WeekComponent.swift */; };
+		B6C28BB42D5B464A00241CDB /* Itinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C28BB32D5B464A00241CDB /* Itinerary.swift */; };
 		B6E351F42D534FA700773756 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B6E351F32D534FA700773756 /* FirebaseAuth */; };
 		B6E351F72D53507900773756 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = B6E351F62D53507900773756 /* GoogleSignIn */; };
 		B6E352022D53548C00773756 /* TheParkBandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E351FF2D53548C00773756 /* TheParkBandApp.swift */; };
@@ -41,6 +44,11 @@
 		B68BC25C2D5B23CC005ED198 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		B68BC2602D5B23EE005ED198 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		B68BC2622D5B2410005ED198 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B6C28BAB2D5B3D8C00241CDB /* ItineraryUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryUploadView.swift; sourceTree = "<group>"; };
+		B6C28BAD2D5B45E900241CDB /* WeekComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekComponentView.swift; sourceTree = "<group>"; };
+		B6C28BAF2D5B45F100241CDB /* HorizonalTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizonalTabView.swift; sourceTree = "<group>"; };
+		B6C28BB12D5B461800241CDB /* WeekComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekComponent.swift; sourceTree = "<group>"; };
+		B6C28BB32D5B464A00241CDB /* Itinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Itinerary.swift; sourceTree = "<group>"; };
 		B6E351DC2D533C7F00773756 /* TheParkBand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheParkBand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E351F92D53548C00773756 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B6E351FB2D53548C00773756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,10 +67,8 @@
 			files = (
 				B6E351F42D534FA700773756 /* FirebaseAuth in Frameworks */,
 				B6E351F72D53507900773756 /* GoogleSignIn in Frameworks */,
-				B6AD8E852D5B27D2006E36CD /* LoremSwiftum in Frameworks */,
+				B64006DE2D5B46AF0092A703 /* LoremSwiftum in Frameworks */,
 				B6E3521E2D53587B00773756 /* FirebaseFirestore in Frameworks */,
-				B6657B332D5569A100485054 /* ComponentsKit in Frameworks */,
-				B6657B362D5569AF00485054 /* SwiftfulRouting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +128,8 @@
 		B6E352002D53548C00773756 /* TheParkBand */ = {
 			isa = PBXGroup;
 			children = (
+				B6C28BB32D5B464A00241CDB /* Itinerary.swift */,
+				B6C28BB12D5B461800241CDB /* WeekComponent.swift */,
 				B6E351FE2D53548C00773756 /* TheParkBand.entitlements */,
 				B6657B2F2D55667000485054 /* GoogleService-Info.plist */,
 				B6E351FF2D53548C00773756 /* TheParkBandApp.swift */,
@@ -129,6 +137,9 @@
 				B6E352102D5354EF00773756 /* Core */,
 				B6E352182D5356CA00773756 /* Extensions */,
 				B6E351FA2D53548C00773756 /* Preview Content */,
+				B6C28BAB2D5B3D8C00241CDB /* ItineraryUploadView.swift */,
+				B6C28BAD2D5B45E900241CDB /* WeekComponentView.swift */,
+				B6C28BAF2D5B45F100241CDB /* HorizonalTabView.swift */,
 			);
 			path = TheParkBand;
 			sourceTree = "<group>";
@@ -209,9 +220,7 @@
 				B6E351F32D534FA700773756 /* FirebaseAuth */,
 				B6E351F62D53507900773756 /* GoogleSignIn */,
 				B6E3521D2D53587B00773756 /* FirebaseFirestore */,
-				B6657B322D5569A100485054 /* ComponentsKit */,
-				B6657B352D5569AF00485054 /* SwiftfulRouting */,
-				B6AD8E842D5B27D2006E36CD /* LoremSwiftum */,
+				B64006DD2D5B46AF0092A703 /* LoremSwiftum */,
 			);
 			productName = TheParkBand;
 			productReference = B6E351DC2D533C7F00773756 /* TheParkBand.app */;
@@ -244,9 +253,7 @@
 			packageReferences = (
 				B6E351F22D534FA700773756 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				B6E351F52D53507900773756 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
-				B6657B312D5569A100485054 /* XCRemoteSwiftPackageReference "ComponentsKit" */,
-				B6657B342D5569AF00485054 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */,
-				B6AD8E832D5B27D2006E36CD /* XCRemoteSwiftPackageReference "LoremSwiftum" */,
+				B64006DC2D5B46AF0092A703 /* XCRemoteSwiftPackageReference "LoremSwiftum" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B6E351DD2D533C7F00773756 /* Products */;
@@ -281,10 +288,15 @@
 				B6E352232D535C6E00773756 /* SignInView.swift in Sources */,
 				B6E352142D53553100773756 /* AuthenticationViewModel.swift in Sources */,
 				B6E352252D535D1900773756 /* AuthenticationView.swift in Sources */,
+				B6C28BB22D5B461800241CDB /* WeekComponent.swift in Sources */,
 				B6E3521A2D53577200773756 /* UIApplication+RootViewController.swift in Sources */,
+				B6C28BB42D5B464A00241CDB /* Itinerary.swift in Sources */,
+				B6C28BAE2D5B45E900241CDB /* WeekComponentView.swift in Sources */,
 				B68BC25B2D5B23A2005ED198 /* ScheduleView.swift in Sources */,
 				B68BC25D2D5B23CC005ED198 /* LocationView.swift in Sources */,
+				B6C28BB02D5B45F100241CDB /* HorizonalTabView.swift in Sources */,
 				B618C3D12D5B2B3F0096A68B /* UserTabView.swift in Sources */,
+				B6C28BAC2D5B3D8C00241CDB /* ItineraryUploadView.swift in Sources */,
 				B618C3D22D5B2B3F0096A68B /* UserView.swift in Sources */,
 				B68BC2592D5B2385005ED198 /* ItineraryView.swift in Sources */,
 				B6E352022D53548C00773756 /* TheParkBandApp.swift in Sources */,
@@ -517,23 +529,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B6657B312D5569A100485054 /* XCRemoteSwiftPackageReference "ComponentsKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/componentskit/ComponentsKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.4.0;
-			};
-		};
-		B6657B342D5569AF00485054 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulRouting.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.3.6;
-			};
-		};
-		B6AD8E832D5B27D2006E36CD /* XCRemoteSwiftPackageReference "LoremSwiftum" */ = {
+		B64006DC2D5B46AF0092A703 /* XCRemoteSwiftPackageReference "LoremSwiftum" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/lukaskubanek/LoremSwiftum.git";
 			requirement = {
@@ -560,19 +556,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B6657B322D5569A100485054 /* ComponentsKit */ = {
+		B64006DD2D5B46AF0092A703 /* LoremSwiftum */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B6657B312D5569A100485054 /* XCRemoteSwiftPackageReference "ComponentsKit" */;
-			productName = ComponentsKit;
-		};
-		B6657B352D5569AF00485054 /* SwiftfulRouting */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B6657B342D5569AF00485054 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */;
-			productName = SwiftfulRouting;
-		};
-		B6AD8E842D5B27D2006E36CD /* LoremSwiftum */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B6AD8E832D5B27D2006E36CD /* XCRemoteSwiftPackageReference "LoremSwiftum" */;
+			package = B64006DC2D5B46AF0092A703 /* XCRemoteSwiftPackageReference "LoremSwiftum" */;
 			productName = LoremSwiftum;
 		};
 		B6E351F32D534FA700773756 /* FirebaseAuth */ = {

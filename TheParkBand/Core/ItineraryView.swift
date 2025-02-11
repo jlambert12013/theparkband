@@ -8,11 +8,31 @@
 import SwiftUI
 
 struct ItineraryView: View {
-    var body: some View {
-        Text("ItineraryView")
+  @State var isPresenting: Bool = false
+  
+  var body: some View {
+    NavigationStack {
+      VStack {
+        Text("Itinerary")
+      }
+      .fullScreenCover(isPresented: $isPresenting) {
+        ItineraryUploadView()
+      }
+      .navigationTitle("This Week")
+      .toolbar {
+        Button {
+          isPresenting = true
+        } label: {
+          HStack {
+            Text("Add Event")
+            Image(systemName: "calendar.badge.plus")
+          }
+        }
+      }
     }
+  }
 }
 
 #Preview {
-    ItineraryView()
+  ItineraryView(isPresenting: false)
 }
