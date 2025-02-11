@@ -7,6 +7,8 @@
 
 import UIKit
 
+
+// ROOT VIEW CONTROLLER
 extension UIApplication {
   func rootViewController() -> UIViewController? {
     var rootViewController: UIViewController? = nil

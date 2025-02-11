@@ -7,40 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B618C3CC2D5B2B340096A68B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B618C3CA2D5B2B340096A68B /* User.swift */; };
+		B618C3D12D5B2B3F0096A68B /* UserTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B618C3CE2D5B2B3F0096A68B /* UserTabView.swift */; };
+		B618C3D22D5B2B3F0096A68B /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B618C3CF2D5B2B3F0096A68B /* UserView.swift */; };
 		B6657B302D55667000485054 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6657B2F2D55667000485054 /* GoogleService-Info.plist */; };
 		B6657B332D5569A100485054 /* ComponentsKit in Frameworks */ = {isa = PBXBuildFile; productRef = B6657B322D5569A100485054 /* ComponentsKit */; };
 		B6657B362D5569AF00485054 /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = B6657B352D5569AF00485054 /* SwiftfulRouting */; };
-		B66F230F2D56032B007D69FB /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F230D2D56032B007D69FB /* CustomTabBar.swift */; };
+		B68BC2592D5B2385005ED198 /* ItineraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68BC2582D5B2385005ED198 /* ItineraryView.swift */; };
+		B68BC25B2D5B23A2005ED198 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68BC25A2D5B23A2005ED198 /* ScheduleView.swift */; };
+		B68BC25D2D5B23CC005ED198 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68BC25C2D5B23CC005ED198 /* LocationView.swift */; };
+		B68BC2612D5B23EE005ED198 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68BC2602D5B23EE005ED198 /* MessageView.swift */; };
+		B68BC2632D5B2410005ED198 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68BC2622D5B2410005ED198 /* SettingsView.swift */; };
+		B6AD8E852D5B27D2006E36CD /* LoremSwiftum in Frameworks */ = {isa = PBXBuildFile; productRef = B6AD8E842D5B27D2006E36CD /* LoremSwiftum */; };
 		B6E351F42D534FA700773756 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B6E351F32D534FA700773756 /* FirebaseAuth */; };
 		B6E351F72D53507900773756 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = B6E351F62D53507900773756 /* GoogleSignIn */; };
-		B6E352012D53548C00773756 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E351FC2D53548C00773756 /* HomeView.swift */; };
 		B6E352022D53548C00773756 /* TheParkBandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E351FF2D53548C00773756 /* TheParkBandApp.swift */; };
 		B6E352032D53548C00773756 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E351F92D53548C00773756 /* Preview Assets.xcassets */; };
 		B6E352042D53548C00773756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E351FB2D53548C00773756 /* Assets.xcassets */; };
 		B6E352142D53553100773756 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E352132D53553100773756 /* AuthenticationViewModel.swift */; };
-		B6E3521A2D53577200773756 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E352192D53577200773756 /* UIApplicationExtension.swift */; };
-		B6E3521C2D53582000773756 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E3521B2D53582000773756 /* User.swift */; };
+		B6E3521A2D53577200773756 /* UIApplication+RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E352192D53577200773756 /* UIApplication+RootViewController.swift */; };
 		B6E3521E2D53587B00773756 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B6E3521D2D53587B00773756 /* FirebaseFirestore */; };
 		B6E352232D535C6E00773756 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E352222D535C6E00773756 /* SignInView.swift */; };
 		B6E352252D535D1900773756 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E352242D535D1900773756 /* AuthenticationView.swift */; };
-		B6E352272D53618D00773756 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E352262D53618D00773756 /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B618C3CA2D5B2B340096A68B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B618C3CE2D5B2B3F0096A68B /* UserTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTabView.swift; sourceTree = "<group>"; };
+		B618C3CF2D5B2B3F0096A68B /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		B6657B2F2D55667000485054 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		B66F230D2D56032B007D69FB /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		B68BC2582D5B2385005ED198 /* ItineraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryView.swift; sourceTree = "<group>"; };
+		B68BC25A2D5B23A2005ED198 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		B68BC25C2D5B23CC005ED198 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		B68BC2602D5B23EE005ED198 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		B68BC2622D5B2410005ED198 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		B6E351DC2D533C7F00773756 /* TheParkBand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheParkBand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E351F92D53548C00773756 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B6E351FB2D53548C00773756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B6E351FC2D53548C00773756 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B6E351FE2D53548C00773756 /* TheParkBand.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheParkBand.entitlements; sourceTree = "<group>"; };
 		B6E351FF2D53548C00773756 /* TheParkBandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheParkBandApp.swift; sourceTree = "<group>"; };
 		B6E352132D53553100773756 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
-		B6E352192D53577200773756 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
-		B6E3521B2D53582000773756 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B6E352192D53577200773756 /* UIApplication+RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+RootViewController.swift"; sourceTree = "<group>"; };
 		B6E352222D535C6E00773756 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		B6E352242D535D1900773756 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
-		B6E352262D53618D00773756 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +59,7 @@
 			files = (
 				B6E351F42D534FA700773756 /* FirebaseAuth in Frameworks */,
 				B6E351F72D53507900773756 /* GoogleSignIn in Frameworks */,
+				B6AD8E852D5B27D2006E36CD /* LoremSwiftum in Frameworks */,
 				B6E3521E2D53587B00773756 /* FirebaseFirestore in Frameworks */,
 				B6657B332D5569A100485054 /* ComponentsKit in Frameworks */,
 				B6657B362D5569AF00485054 /* SwiftfulRouting in Frameworks */,
@@ -59,20 +69,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B66F23062D560286007D69FB /* Components */ = {
+		B618C3CB2D5B2B340096A68B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B66F230E2D56032B007D69FB /* CustomTabBar */,
+				B618C3CA2D5B2B340096A68B /* User.swift */,
 			);
-			path = Components;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		B66F230E2D56032B007D69FB /* CustomTabBar */ = {
+		B618C3D02D5B2B3F0096A68B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B66F230D2D56032B007D69FB /* CustomTabBar.swift */,
+				B618C3CE2D5B2B3F0096A68B /* UserTabView.swift */,
+				B618C3CF2D5B2B3F0096A68B /* UserView.swift */,
 			);
-			path = CustomTabBar;
+			path = View;
+			sourceTree = "<group>";
+		};
+		B68BC2522D5B22F2005ED198 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				B618C3CB2D5B2B340096A68B /* Model */,
+				B618C3D02D5B2B3F0096A68B /* View */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 		B6E351D32D533C7F00773756 = {
@@ -104,10 +124,8 @@
 			children = (
 				B6E351FE2D53548C00773756 /* TheParkBand.entitlements */,
 				B6657B2F2D55667000485054 /* GoogleService-Info.plist */,
-				B6E351FC2D53548C00773756 /* HomeView.swift */,
 				B6E351FF2D53548C00773756 /* TheParkBandApp.swift */,
 				B6E351FB2D53548C00773756 /* Assets.xcassets */,
-				B66F23062D560286007D69FB /* Components */,
 				B6E352102D5354EF00773756 /* Core */,
 				B6E352182D5356CA00773756 /* Extensions */,
 				B6E351FA2D53548C00773756 /* Preview Content */,
@@ -118,7 +136,6 @@
 		B6E3520C2D5354EF00773756 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B6E3521B2D53582000773756 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -128,7 +145,6 @@
 			children = (
 				B6E352222D535C6E00773756 /* SignInView.swift */,
 				B6E352242D535D1900773756 /* AuthenticationView.swift */,
-				B6E352262D53618D00773756 /* UserView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -154,7 +170,13 @@
 		B6E352102D5354EF00773756 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				B68BC2582D5B2385005ED198 /* ItineraryView.swift */,
+				B68BC25C2D5B23CC005ED198 /* LocationView.swift */,
+				B68BC2602D5B23EE005ED198 /* MessageView.swift */,
+				B68BC25A2D5B23A2005ED198 /* ScheduleView.swift */,
+				B68BC2622D5B2410005ED198 /* SettingsView.swift */,
 				B6E3520F2D5354EF00773756 /* Authentication */,
+				B68BC2522D5B22F2005ED198 /* User */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -162,7 +184,7 @@
 		B6E352182D5356CA00773756 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				B6E352192D53577200773756 /* UIApplicationExtension.swift */,
+				B6E352192D53577200773756 /* UIApplication+RootViewController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -189,6 +211,7 @@
 				B6E3521D2D53587B00773756 /* FirebaseFirestore */,
 				B6657B322D5569A100485054 /* ComponentsKit */,
 				B6657B352D5569AF00485054 /* SwiftfulRouting */,
+				B6AD8E842D5B27D2006E36CD /* LoremSwiftum */,
 			);
 			productName = TheParkBand;
 			productReference = B6E351DC2D533C7F00773756 /* TheParkBand.app */;
@@ -223,6 +246,7 @@
 				B6E351F52D53507900773756 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				B6657B312D5569A100485054 /* XCRemoteSwiftPackageReference "ComponentsKit" */,
 				B6657B342D5569AF00485054 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */,
+				B6AD8E832D5B27D2006E36CD /* XCRemoteSwiftPackageReference "LoremSwiftum" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B6E351DD2D533C7F00773756 /* Products */;
@@ -252,15 +276,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B618C3CC2D5B2B340096A68B /* User.swift in Sources */,
+				B68BC2612D5B23EE005ED198 /* MessageView.swift in Sources */,
 				B6E352232D535C6E00773756 /* SignInView.swift in Sources */,
 				B6E352142D53553100773756 /* AuthenticationViewModel.swift in Sources */,
-				B6E352012D53548C00773756 /* HomeView.swift in Sources */,
-				B6E352272D53618D00773756 /* UserView.swift in Sources */,
-				B66F230F2D56032B007D69FB /* CustomTabBar.swift in Sources */,
 				B6E352252D535D1900773756 /* AuthenticationView.swift in Sources */,
-				B6E3521A2D53577200773756 /* UIApplicationExtension.swift in Sources */,
-				B6E3521C2D53582000773756 /* User.swift in Sources */,
+				B6E3521A2D53577200773756 /* UIApplication+RootViewController.swift in Sources */,
+				B68BC25B2D5B23A2005ED198 /* ScheduleView.swift in Sources */,
+				B68BC25D2D5B23CC005ED198 /* LocationView.swift in Sources */,
+				B618C3D12D5B2B3F0096A68B /* UserTabView.swift in Sources */,
+				B618C3D22D5B2B3F0096A68B /* UserView.swift in Sources */,
+				B68BC2592D5B2385005ED198 /* ItineraryView.swift in Sources */,
 				B6E352022D53548C00773756 /* TheParkBandApp.swift in Sources */,
+				B68BC2632D5B2410005ED198 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +533,14 @@
 				minimumVersion = 5.3.6;
 			};
 		};
+		B6AD8E832D5B27D2006E36CD /* XCRemoteSwiftPackageReference "LoremSwiftum" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lukaskubanek/LoremSwiftum.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		B6E351F22D534FA700773756 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -533,6 +569,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = B6657B342D5569AF00485054 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */;
 			productName = SwiftfulRouting;
+		};
+		B6AD8E842D5B27D2006E36CD /* LoremSwiftum */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6AD8E832D5B27D2006E36CD /* XCRemoteSwiftPackageReference "LoremSwiftum" */;
+			productName = LoremSwiftum;
 		};
 		B6E351F32D534FA700773756 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;

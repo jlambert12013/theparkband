@@ -5,9 +5,9 @@
 //  Created by Jim Lambert on 2/5/25.
 //
 
+import SwiftUI
 import FirebaseAuth
 import FirebaseFirestore
-
 
 struct User: Codable, Identifiable {
   @DocumentID var id: String?
