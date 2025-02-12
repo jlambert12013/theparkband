@@ -18,7 +18,7 @@ struct UserTabView: View {
         .tabItem { Label("Bulliten", systemImage: "list.clipboard").opacity(0.6) }
       ScheduleView()
         .tabItem { Label("Schedule", systemImage: "calendar").opacity(0.6) }
-      LocationView()
+      UsersLocationView()
         .tabItem { Label("Locations", systemImage: "location.fill").opacity(0.6) }
       MessageView()
         .tabItem { Label("Messages", systemImage: "bubble.left.and.bubble.right.fill").opacity(0.6) }

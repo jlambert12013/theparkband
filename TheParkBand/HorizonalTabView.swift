@@ -9,23 +9,27 @@
 import SwiftUI
 
 struct HorizonalTabView: View {
-  @Binding var selected: Itinerary.EventType
+  @Binding var eventType: Itinerary.EventType
  
  var body: some View {
   ScrollView(.horizontal, showsIndicators: false) {
    HStack {
     ForEach(Itinerary.EventType.allCases, id: \.self) { type in
-     Button(action: { self.selected = type }, label: {
+     Button(action: { self.eventType = type }, label: {
       Text("\(type)".capitalized)
+         .fontWeight(.semibold     )
 //       .font(.custom("Roboto-Medium", size: 14))
        .padding(.horizontal, 12)
        .padding(.vertical, 8)
-       .background(selected == type.id ? Color("TabBackgroundSelectedColor") : Color("TabBackgroundColor"))
-       .foregroundStyle(selected == type.id ? Color("TabFontSelectedColor") : Color("TabFontColor"))
+       .background(eventType == type.id ? Color("TabBackgroundSelectedColor") : Color("TabBackgroundColor"))
+       .foregroundStyle(eventType == type.id ? Color("TabFontSelectedColor") : Color("TabFontColor"))
        .cornerRadius(6)
-     }).sensoryFeedback(.impact(weight: .light, intensity: 1.0), trigger: selected)
+     }).sensoryFeedback(.impact(weight: .light, intensity: 1.0), trigger: eventType)
     }
-   }.scrollTargetLayout()
+   }
+   .padding(.bottom)
+   .padding(.horizontal)
+   .scrollTargetLayout()
   }.scrollTargetBehavior(.viewAligned)
  }
 }
@@ -33,7 +37,7 @@ struct HorizonalTabView: View {
 // MARK: PREVIEW ITINERARY UPLOAD
 struct HorizonalTabView_Preview: PreviewProvider {
  static var previews: some View {
-   HorizonalTabView(selected: .constant(.birthday))
+   HorizonalTabView(eventType: .constant(.birthday))
  }
 }
 

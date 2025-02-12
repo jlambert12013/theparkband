@@ -10,11 +10,16 @@
 		B618C3CC2D5B2B340096A68B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B618C3CA2D5B2B340096A68B /* User.swift */; };
 		B618C3D12D5B2B3F0096A68B /* UserTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B618C3CE2D5B2B3F0096A68B /* UserTabView.swift */; };
 		B618C3D22D5B2B3F0096A68B /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B618C3CF2D5B2B3F0096A68B /* UserView.swift */; };
+		B629C5DD2D5C7A8F0073F325 /* AddressComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B629C5DC2D5C7A8F0073F325 /* AddressComponentView.swift */; };
+		B629C5E42D5C7A9D0073F325 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = B629C5E02D5C7A9D0073F325 /* Address.swift */; };
+		B629C5E52D5C7A9D0073F325 /* AddressLookupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B629C5E12D5C7A9D0073F325 /* AddressLookupView.swift */; };
+		B629C5E62D5C7A9D0073F325 /* AddressLookupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B629C5E22D5C7A9D0073F325 /* AddressLookupViewModel.swift */; };
+		B629C5E72D5C7A9D0073F325 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B629C5DF2D5C7A9D0073F325 /* LocationManager.swift */; };
+		B629C5E92D5C80D90073F325 /* UsersLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B629C5E82D5C80D90073F325 /* UsersLocationView.swift */; };
 		B64006DE2D5B46AF0092A703 /* LoremSwiftum in Frameworks */ = {isa = PBXBuildFile; productRef = B64006DD2D5B46AF0092A703 /* LoremSwiftum */; };
 		B6657B302D55667000485054 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6657B2F2D55667000485054 /* GoogleService-Info.plist */; };
 		B68BC2592D5B2385005ED198 /* ItineraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68BC2582D5B2385005ED198 /* ItineraryView.swift */; };
 		B68BC25B2D5B23A2005ED198 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68BC25A2D5B23A2005ED198 /* ScheduleView.swift */; };
-		B68BC25D2D5B23CC005ED198 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68BC25C2D5B23CC005ED198 /* LocationView.swift */; };
 		B68BC2612D5B23EE005ED198 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68BC2602D5B23EE005ED198 /* MessageView.swift */; };
 		B68BC2632D5B2410005ED198 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68BC2622D5B2410005ED198 /* SettingsView.swift */; };
 		B6C28BAC2D5B3D8C00241CDB /* ItineraryUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C28BAB2D5B3D8C00241CDB /* ItineraryUploadView.swift */; };
@@ -22,6 +27,7 @@
 		B6C28BB02D5B45F100241CDB /* HorizonalTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C28BAF2D5B45F100241CDB /* HorizonalTabView.swift */; };
 		B6C28BB22D5B461800241CDB /* WeekComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C28BB12D5B461800241CDB /* WeekComponent.swift */; };
 		B6C28BB42D5B464A00241CDB /* Itinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C28BB32D5B464A00241CDB /* Itinerary.swift */; };
+		B6DE2F3F2D5CA04200090A78 /* SearchComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE2F3E2D5CA04200090A78 /* SearchComponent.swift */; };
 		B6E351F42D534FA700773756 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B6E351F32D534FA700773756 /* FirebaseAuth */; };
 		B6E351F72D53507900773756 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = B6E351F62D53507900773756 /* GoogleSignIn */; };
 		B6E352022D53548C00773756 /* TheParkBandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E351FF2D53548C00773756 /* TheParkBandApp.swift */; };
@@ -38,10 +44,15 @@
 		B618C3CA2D5B2B340096A68B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B618C3CE2D5B2B3F0096A68B /* UserTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTabView.swift; sourceTree = "<group>"; };
 		B618C3CF2D5B2B3F0096A68B /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		B629C5DC2D5C7A8F0073F325 /* AddressComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressComponentView.swift; sourceTree = "<group>"; };
+		B629C5DF2D5C7A9D0073F325 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		B629C5E02D5C7A9D0073F325 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		B629C5E12D5C7A9D0073F325 /* AddressLookupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressLookupView.swift; sourceTree = "<group>"; };
+		B629C5E22D5C7A9D0073F325 /* AddressLookupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressLookupViewModel.swift; sourceTree = "<group>"; };
+		B629C5E82D5C80D90073F325 /* UsersLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersLocationView.swift; sourceTree = "<group>"; };
 		B6657B2F2D55667000485054 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B68BC2582D5B2385005ED198 /* ItineraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryView.swift; sourceTree = "<group>"; };
 		B68BC25A2D5B23A2005ED198 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
-		B68BC25C2D5B23CC005ED198 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		B68BC2602D5B23EE005ED198 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		B68BC2622D5B2410005ED198 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		B6C28BAB2D5B3D8C00241CDB /* ItineraryUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryUploadView.swift; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		B6C28BAF2D5B45F100241CDB /* HorizonalTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizonalTabView.swift; sourceTree = "<group>"; };
 		B6C28BB12D5B461800241CDB /* WeekComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekComponent.swift; sourceTree = "<group>"; };
 		B6C28BB32D5B464A00241CDB /* Itinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Itinerary.swift; sourceTree = "<group>"; };
+		B6DE2F3E2D5CA04200090A78 /* SearchComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchComponent.swift; sourceTree = "<group>"; };
 		B6E351DC2D533C7F00773756 /* TheParkBand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheParkBand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E351F92D53548C00773756 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B6E351FB2D53548C00773756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -128,18 +140,24 @@
 		B6E352002D53548C00773756 /* TheParkBand */ = {
 			isa = PBXGroup;
 			children = (
-				B6C28BB32D5B464A00241CDB /* Itinerary.swift */,
-				B6C28BB12D5B461800241CDB /* WeekComponent.swift */,
 				B6E351FE2D53548C00773756 /* TheParkBand.entitlements */,
 				B6657B2F2D55667000485054 /* GoogleService-Info.plist */,
+				B6DE2F3E2D5CA04200090A78 /* SearchComponent.swift */,
+				B6C28BAF2D5B45F100241CDB /* HorizonalTabView.swift */,
+				B6C28BB32D5B464A00241CDB /* Itinerary.swift */,
+				B6C28BAB2D5B3D8C00241CDB /* ItineraryUploadView.swift */,
+				B629C5DC2D5C7A8F0073F325 /* AddressComponentView.swift */,
+				B629C5DF2D5C7A9D0073F325 /* LocationManager.swift */,
+				B629C5E02D5C7A9D0073F325 /* Address.swift */,
+				B629C5E12D5C7A9D0073F325 /* AddressLookupView.swift */,
+				B629C5E22D5C7A9D0073F325 /* AddressLookupViewModel.swift */,
 				B6E351FF2D53548C00773756 /* TheParkBandApp.swift */,
+				B6C28BB12D5B461800241CDB /* WeekComponent.swift */,
+				B6C28BAD2D5B45E900241CDB /* WeekComponentView.swift */,
 				B6E351FB2D53548C00773756 /* Assets.xcassets */,
 				B6E352102D5354EF00773756 /* Core */,
 				B6E352182D5356CA00773756 /* Extensions */,
 				B6E351FA2D53548C00773756 /* Preview Content */,
-				B6C28BAB2D5B3D8C00241CDB /* ItineraryUploadView.swift */,
-				B6C28BAD2D5B45E900241CDB /* WeekComponentView.swift */,
-				B6C28BAF2D5B45F100241CDB /* HorizonalTabView.swift */,
 			);
 			path = TheParkBand;
 			sourceTree = "<group>";
@@ -182,12 +200,12 @@
 			isa = PBXGroup;
 			children = (
 				B68BC2582D5B2385005ED198 /* ItineraryView.swift */,
-				B68BC25C2D5B23CC005ED198 /* LocationView.swift */,
 				B68BC2602D5B23EE005ED198 /* MessageView.swift */,
 				B68BC25A2D5B23A2005ED198 /* ScheduleView.swift */,
 				B68BC2622D5B2410005ED198 /* SettingsView.swift */,
 				B6E3520F2D5354EF00773756 /* Authentication */,
 				B68BC2522D5B22F2005ED198 /* User */,
+				B629C5E82D5C80D90073F325 /* UsersLocationView.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -284,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B618C3CC2D5B2B340096A68B /* User.swift in Sources */,
+				B6DE2F3F2D5CA04200090A78 /* SearchComponent.swift in Sources */,
 				B68BC2612D5B23EE005ED198 /* MessageView.swift in Sources */,
 				B6E352232D535C6E00773756 /* SignInView.swift in Sources */,
 				B6E352142D53553100773756 /* AuthenticationViewModel.swift in Sources */,
@@ -291,9 +310,14 @@
 				B6C28BB22D5B461800241CDB /* WeekComponent.swift in Sources */,
 				B6E3521A2D53577200773756 /* UIApplication+RootViewController.swift in Sources */,
 				B6C28BB42D5B464A00241CDB /* Itinerary.swift in Sources */,
+				B629C5DD2D5C7A8F0073F325 /* AddressComponentView.swift in Sources */,
 				B6C28BAE2D5B45E900241CDB /* WeekComponentView.swift in Sources */,
 				B68BC25B2D5B23A2005ED198 /* ScheduleView.swift in Sources */,
-				B68BC25D2D5B23CC005ED198 /* LocationView.swift in Sources */,
+				B629C5E42D5C7A9D0073F325 /* Address.swift in Sources */,
+				B629C5E52D5C7A9D0073F325 /* AddressLookupView.swift in Sources */,
+				B629C5E62D5C7A9D0073F325 /* AddressLookupViewModel.swift in Sources */,
+				B629C5E92D5C80D90073F325 /* UsersLocationView.swift in Sources */,
+				B629C5E72D5C7A9D0073F325 /* LocationManager.swift in Sources */,
 				B6C28BB02D5B45F100241CDB /* HorizonalTabView.swift in Sources */,
 				B618C3D12D5B2B3F0096A68B /* UserTabView.swift in Sources */,
 				B6C28BAC2D5B3D8C00241CDB /* ItineraryUploadView.swift in Sources */,
@@ -436,6 +460,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TheParkBand/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Park Band";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(DISPLAY_NAME) requires access to your devices location.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -478,6 +503,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TheParkBand/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Park Band";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(DISPLAY_NAME) requires access to your devices location.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import SwiftfulRouting
+
 
 struct AuthenticationView: View {
   @EnvironmentObject var authenticationViewModel: AuthenticationViewModel
