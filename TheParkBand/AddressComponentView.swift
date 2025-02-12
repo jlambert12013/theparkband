@@ -16,36 +16,21 @@ struct AddressComponentView: View {
     
     var body: some View {
         VStack {
-            VStack(alignment: .leading) {
-                Text(eventAddress?.name ?? "n/a")
-                    .font(.title2)
-                Text(eventAddress?.address ?? "n/a")
-                    .font(.title3)
-                    .foregroundStyle(.secondary)
-                Text("\(eventAddress?.latitude ?? 0.0),\(eventAddress?.longitude ?? 0.0)")
-                    .font(.title3)
-                    .foregroundStyle(.secondary)
-            }
+            Text(eventAddress?.name ?? "n/a").font(.title2)
+            Text(eventAddress?.address ?? "n/a").font(.title3).foregroundStyle(.secondary)
+            Text("\(eventAddress?.latitude ?? 0.0),\(eventAddress?.longitude ?? 0.0)").font(.title3)
+            InputTextFieldView(text: $text,
+                               placeholder: "Add Location",
+                               keyboardType: .default,
+                               systemImage: "location").disabled(true)
+                .overlay {
+                    Rectangle().onTapGesture {
+                        isPresenting = true
+                    }.opacity(0.0)
+                }
             
-         
-
-            VStack {
-                HStack {
-                    Image(systemName: "location.circle.fill").resizable()
-                    Text("Add Location")
-                    Spacer()
-                }.padding()
-//                .padding(.horizontal, 12)
-//                .padding(.vertical, 8)
-                .frame(maxWidth: .infinity)
-                .background(Color.gray.tertiary, in:.capsule)
-                .clipped()
-            }
-            .onTapGesture {
-                isPresenting.toggle()
-            }.padding()
-        }
-        .task {
+                .onTapGesture { isPresenting.toggle() }.padding()
+        }.task {
             locationManager.locationUpdated = { location in
                 Task { eventAddress = await Address(location: location) }
             }
@@ -59,4 +44,39 @@ struct AddressComponentView: View {
     AddressComponentView(locationManager: LocationManager(),
                          eventAddress: .constant(Address(mapItem: MKMapItem())),
                          isPresenting: .constant(false))
+}
+
+
+
+
+struct InputTextFieldView: View {
+    
+    @Binding var text: String
+    let placeholder: String
+    let keyboardType: UIKeyboardType
+    let systemImage: String?
+    
+    private let textFieldLeading: CGFloat = 30
+    
+    var body: some View {
+        
+        VStack {
+            TextField(placeholder, text: $text)
+                .frame(maxWidth: .infinity, minHeight: 44, alignment: .center)
+                .padding(.leading, systemImage == nil ? textFieldLeading / 2 : textFieldLeading)
+                .keyboardType(keyboardType)
+                .background(
+                    ZStack(alignment: .leading) {
+                        if let systemImage = systemImage {
+                            Image(systemName: systemImage)
+                                .font(.system(size: 16, weight: .semibold))
+                                .padding(.leading, 5)
+                                .foregroundColor(Color.gray.opacity(0.5))
+                        }
+                        RoundedRectangle(cornerRadius: 8, style: .continuous)
+                            .stroke(Color.gray.opacity(0.25), lineWidth: 1)
+                    }
+                )
+        }
+    }
 }
